@@ -48,12 +48,12 @@
 // - Cars:       9
 // - Home:       0
 // - IGate:      5
-#define S_CALLSIGN      "MYCALL"
+#define S_CALLSIGN      "KG7OYG"
 #define S_CALLSIGN_ID   11
 
 // Destination callsign: APRS (with SSID=0) is usually okay.
-#define D_CALLSIGN      "APRS"
-#define D_CALLSIGN_ID   0
+#define D_CALLSIGN      "AA5QJ"
+#define D_CALLSIGN_ID   1
 
 // Digipeating paths:
 // (read more about digipeating paths here: http://wa8lmf.net/DigiPaths/ )
@@ -62,6 +62,9 @@
 #define DIGI_PATH1      "WIDE2"
 #define DIGI_PATH1_TTL  1
 
+//#define DIGI_PATH2      "WIDE2"
+//#define DIGI_PATH2_TTL  1
+
 // Symbol table and code: '/' for primary table, code 'O' for balloon, '-' for QTH.
 #define SYMBOL_TABLE    '/'
 #define SYMBOL_CODE     '-'
@@ -69,7 +72,7 @@
 // APRS comment: this goes in the comment portion of the APRS message. You
 // might want to keep this short. The longer the packet, the more vulnerable
 // it is to noise. 
-#define APRS_COMMENT    "Trackuino reminder: replace callsign with your own"
+#define APRS_COMMENT    "ROFL DOGE"
 
 
 // --------------------------------------------------------------------------
@@ -96,7 +99,7 @@
 // 00:02:00, etc. and the second balloon will transmit at 00:00:30, 00:01:30,
 // 00:02:30, etc.
 #define APRS_SLOT     0     // seconds. -1 disables slotted transmissions
-#define APRS_PERIOD   60    // seconds
+#define APRS_PERIOD   10    // seconds
 
 // GPS baud rate (in bits per second). This is also the baud rate at which
 // debug data will be printed out the serial port.
@@ -104,10 +107,10 @@
 
 // Disable GPS and just use a predefined latitude and longitude.
 // Make sure to use the correct format. You may also define an altitude (in meters).
-//#define GPS_DISABLED
-//#define LATITUDE "3802.75N"
-//#define LONGITUDE "02340.90E"
-//#define ALTITUDE 0
+#define GPS_DISABLED
+#define LATITUDE "3610.19N"
+#define LONGITUDE "1158.20W"
+#define ALTITUDE 601
 
 
 // --------------------------------------------------------------------------

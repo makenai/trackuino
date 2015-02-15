@@ -32,7 +32,6 @@
 
 #endif
 
-
 // Trackuino custom libs
 #include "config.h"
 #include "afsk_avr.h"
@@ -163,7 +162,7 @@ void get_pos()
 }
 
 void loop()
-{
+{ 
   // Time for another APRS frame
   if ((int32_t) (millis() - next_aprs) >= 0) {
 #ifndef GPS_DISABLED
