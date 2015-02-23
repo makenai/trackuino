@@ -109,7 +109,7 @@
 // Make sure to use the correct format. You may also define an altitude (in meters).
 #define GPS_DISABLED
 #define LATITUDE "3610.19N"
-#define LONGITUDE "1158.20W"
+#define LONGITUDE "11508.20W"
 #define ALTITUDE 601
 
 
