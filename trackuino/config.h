@@ -48,12 +48,12 @@
 // - Cars:       9
 // - Home:       0
 // - IGate:      5
-#define S_CALLSIGN      "KG7OYG"
+#define S_CALLSIGN      "KG7OXY"
 #define S_CALLSIGN_ID   11
 
 // Destination callsign: APRS (with SSID=0) is usually okay.
-#define D_CALLSIGN      "AA5QJ"
-#define D_CALLSIGN_ID   1
+#define D_CALLSIGN      "APRS"
+#define D_CALLSIGN_ID   0
 
 // Digipeating paths:
 // (read more about digipeating paths here: http://wa8lmf.net/DigiPaths/ )
@@ -72,7 +72,7 @@
 // APRS comment: this goes in the comment portion of the APRS message. You
 // might want to keep this short. The longer the packet, the more vulnerable
 // it is to noise. 
-#define APRS_COMMENT    "ROFL DOGE"
+#define APRS_COMMENT    "ROFLDOGE"
 
 
 // --------------------------------------------------------------------------
@@ -109,7 +109,7 @@
 // Make sure to use the correct format. You may also define an altitude (in meters).
 #define GPS_DISABLED
 #define LATITUDE "3610.19N"
-#define LONGITUDE "1158.20W"
+#define LONGITUDE "11508.20W"
 #define ALTITUDE 601
 
 
